@@ -13,7 +13,7 @@ export const Header = () => {
       <HeaderContainer>
         <HeaderList>
           <HeaderItem>
-            <HeaderNavLink to={"/shop"}>Shop</HeaderNavLink>
+            <HeaderNavLink to={"/"}>Shop</HeaderNavLink>
           </HeaderItem>
           <Line></Line>
           <HeaderItem>

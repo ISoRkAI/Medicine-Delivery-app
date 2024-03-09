@@ -32,8 +32,7 @@ export const PharmacyBtn = styled.button`
   text-align: center;
   justify-content: center;
   min-width: 150px;
-  background-color: ${(p) =>
-    p.index + 1 === Number(p.activeBtn) ? "#ff7601" : "#ffffff"};
+
   &:hover {
     background-color: #ff7601;
   }

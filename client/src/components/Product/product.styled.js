@@ -24,3 +24,27 @@ export const ProductItem = styled.li`
   padding: 10px;
   border-color: grey;
 `;
+
+export const ProductImg = styled.img`
+  width: 200px;
+  margin: auto;
+`;
+
+export const ProductText = styled.p`
+  color: #000000;
+`;
+
+export const ProductPrice = styled.p`
+  color: #ff7601;
+`;
+
+export const ProductBtn = styled.button`
+  min-width: 100px;
+  max-height: 40px;
+  border-radius: 20px;
+  border: solid;
+  border-color: grey;
+  &:hover {
+    background-color: #ff7601;
+  }
+`;

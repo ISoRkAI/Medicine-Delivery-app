@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res, next) => {
   try {
     const { nameProduct, price, imgURL, pharmacyId } = req.body;
-    console.log(nameProduct, price, imgURL, pharmacyId);
+
     const postProduct = await new Products({
       nameProduct,
       price,
